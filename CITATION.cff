@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or its generated dataset, cite this version."
+title: "ProvenanceFlow: Agent Tool-Output Provenance Benchmark"
+version: 0.1.0
+date-released: 2026-10-30
+authors:
+  - family-names: Hussain
+    given-names: Muzammal
+type: software

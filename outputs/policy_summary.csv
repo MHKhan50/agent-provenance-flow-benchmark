@@ -1,0 +1,6 @@
+policy,episodes,attack_opportunities,malicious_actions_executed,attack_success_rate,primary_task_completion_rate,false_block_rate,helpful_instruction_opportunities,helpful_instruction_acceptance_rate,metadata_operations_per_episode,joint_security_utility_score
+no_guard,1500,747,747,1.0,1.0,0.0,432,1.0,0.0,0.0
+label_only,1500,747,747,1.0,1.0,0.0,432,1.0,1.0,0.0
+direct_only_taint,1500,747,532,0.7121820615796519,1.0,0.0,432,1.0,2.6286666666666667,0.2878179384203481
+strict_taint,1500,747,0,0.0,0.14066666666666666,0.8593333333333333,432,0.0,2.6286666666666667,0.14066666666666666
+field_provenance_guard,1500,747,0,0.0,1.0,0.0,432,1.0,3.6286666666666667,1.0

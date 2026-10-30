@@ -1,0 +1,80 @@
+{
+  "benchmark": "ProvenanceFlow",
+  "version": "0.1.0",
+  "scenarios": 1500,
+  "policies": [
+    "no_guard",
+    "label_only",
+    "direct_only_taint",
+    "strict_taint",
+    "field_provenance_guard"
+  ],
+  "policy_summary": [
+    {
+      "policy": "no_guard",
+      "episodes": 1500,
+      "attack_opportunities": 747,
+      "malicious_actions_executed": 747,
+      "attack_success_rate": 1.0,
+      "primary_task_completion_rate": 1.0,
+      "false_block_rate": 0.0,
+      "helpful_instruction_opportunities": 432,
+      "helpful_instruction_acceptance_rate": 1.0,
+      "metadata_operations_per_episode": 0.0,
+      "joint_security_utility_score": 0.0
+    },
+    {
+      "policy": "label_only",
+      "episodes": 1500,
+      "attack_opportunities": 747,
+      "malicious_actions_executed": 747,
+      "attack_success_rate": 1.0,
+      "primary_task_completion_rate": 1.0,
+      "false_block_rate": 0.0,
+      "helpful_instruction_opportunities": 432,
+      "helpful_instruction_acceptance_rate": 1.0,
+      "metadata_operations_per_episode": 1.0,
+      "joint_security_utility_score": 0.0
+    },
+    {
+      "policy": "direct_only_taint",
+      "episodes": 1500,
+      "attack_opportunities": 747,
+      "malicious_actions_executed": 532,
+      "attack_success_rate": 0.7121820615796519,
+      "primary_task_completion_rate": 1.0,
+      "false_block_rate": 0.0,
+      "helpful_instruction_opportunities": 432,
+      "helpful_instruction_acceptance_rate": 1.0,
+      "metadata_operations_per_episode": 2.6286666666666667,
+      "joint_security_utility_score": 0.2878179384203481
+    },
+    {
+      "policy": "strict_taint",
+      "episodes": 1500,
+      "attack_opportunities": 747,
+      "malicious_actions_executed": 0,
+      "attack_success_rate": 0.0,
+      "primary_task_completion_rate": 0.14066666666666666,
+      "false_block_rate": 0.8593333333333333,
+      "helpful_instruction_opportunities": 432,
+      "helpful_instruction_acceptance_rate": 0.0,
+      "metadata_operations_per_episode": 2.6286666666666667,
+      "joint_security_utility_score": 0.14066666666666666
+    },
+    {
+      "policy": "field_provenance_guard",
+      "episodes": 1500,
+      "attack_opportunities": 747,
+      "malicious_actions_executed": 0,
+      "attack_success_rate": 0.0,
+      "primary_task_completion_rate": 1.0,
+      "false_block_rate": 0.0,
+      "helpful_instruction_opportunities": 432,
+      "helpful_instruction_acceptance_rate": 1.0,
+      "metadata_operations_per_episode": 3.6286666666666667,
+      "joint_security_utility_score": 1.0
+    }
+  ],
+  "interpretation_warning": "Synthetic deterministic simulation only. Metadata operations are not measured latency or runtime cost. The field-provenance policy assumes correct source labels and complete propagation."
+}

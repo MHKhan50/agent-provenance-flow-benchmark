@@ -1,0 +1,11 @@
+{
+  "package": "ProvenanceFlow",
+  "version": "0.1.0",
+  "reference_run_date": "2026-10-30",
+  "python_version": "3.13.5",
+  "platform": "linux",
+  "scenarios": 1500,
+  "policy_evaluations": 7500,
+  "tests_passed": 10,
+  "test_command": "python3 -m unittest discover -s tests -v"
+}
