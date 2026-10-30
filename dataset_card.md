@@ -58,4 +58,4 @@ Controlled evaluation of provenance policies in synthetic tool-using agent workf
 - No concurrency, tool failures, adversarial label spoofing, or human behaviour is modelled.
 
 ## Privacy and provenance
-No human subjects, personal data, scraped content, or external dataset is used. Every row is generated locally by the included script. Cite this package/version if reused and describe any modifications.
+No human subjects, personal data, scraped content, or external dataset is used. Every row is generated locally by the included script. Cite this version if reused and describe any modifications.
