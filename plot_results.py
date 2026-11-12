@@ -35,7 +35,7 @@ def bar_chart(rows, field, title, filename, maximum=1.0, suffix="%"):
         bar_w = plot_w * min(max(value, 0.0), maximum) / maximum
         label = row["policy"]
         parts.append('<text x="{}" y="{}" text-anchor="end" font-size="14" font-family="Arial">{}</text>'.format(left - 12, y + 30, html.escape(label)))
-        parts.append('<rect x="{}" y="{}" width="{:.1f}" height="{}" fill="#4c78a8"/>'.format(left, y, bar_w, bar_h))
+        parts.append('<rect x="{}" y="{}" width="{:.1f}" height="{}" fill="#1F4E9C"/>'.format(left, y, bar_w, bar_h))
         display = "{:.1f}{}".format(value * 100, "%") if suffix == "%" else "{:.2f}".format(value)
         parts.append('<text x="{:.1f}" y="{}" font-size="14" font-family="Arial">{}</text>'.format(left + bar_w + 8, y + 30, display))
     parts.append("</svg>")
