@@ -1,5 +1,7 @@
 # ProvenanceFlow: Agent Tool-Output Provenance Benchmark
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24228185.svg)](https://doi.org/10.5281/zenodo.24228185)
+
 **Version:** 0.1.0  
 **Date:** 30 October 2026  
 **Author:** Muzammal Hussain  
