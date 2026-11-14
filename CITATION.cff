@@ -6,4 +6,7 @@ date-released: 2026-10-30
 authors:
   - family-names: Hussain
     given-names: Muzammal
+    orcid: "https://orcid.org/0009-0001-2570-5686"
 type: software
+license: MIT
+repository-code: "https://github.com/MHKhan50/agent-provenance-flow-benchmark"
